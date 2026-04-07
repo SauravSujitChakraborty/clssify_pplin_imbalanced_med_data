@@ -66,7 +66,7 @@ Quantitative Application(Probability)
 
 ==> It basically asks: "What is the likelihood of the 'Disease' label given that Gene_A and Gene_B are both 1?"
 
-4. The Epistatic Rule (Deterministic)
+3. The Epistatic Rule (Deterministic)
    
 ==> The "Ground Truth" P in my code is actually Binary (0 or 1) because I used a hard-coded logic: (A == 1) & (B == 1).
 If the rule is met, P=1.
@@ -78,14 +78,18 @@ If not, P=0.
 
  $$ P(y=1) = \frac{1}{1 + e^{-(\text{Raw Score})}} $$
  
-1. The Probability Mass Function (PMF)
+5. The Probability Mass Function (PMF)
    
 ==> The probability of a single patient having a specific mutation is modeled by the following formula:
 
  $$ P(X = k) = p^k (1-p)^{1-k} $$
  
-where:
-$X$: The random variable (the Gene status).
-$k$: The outcome (1 for mutated, 0 for normal).
-$p$: The probability of success (e.g., 0.10 for Gene_A).
+where,
+
+$X$: The random variable (the Gene status),
+
+$k$: The outcome (1 for mutated, 0 for normal),
+
+$p$: The probability of success (e.g., 0.10 for Gene_A),
+
 $1-p$: The probability of failure (0.90 for Gene_A).
