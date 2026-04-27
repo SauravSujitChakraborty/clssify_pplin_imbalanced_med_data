@@ -94,15 +94,32 @@ $p$: The probability of success (e.g., 0.10 for Gene_A),
 
 $1-p$: The probability of failure (0.90 for Gene_A).
 
-Packages required:-
+6. Packages required:-
 
-The packages required for this project are as follows :
+==> The packages required for this project are as follows :
 
-NumPy :- (Numerical Engine) Generates the synthetic dataset using np.random. It creates the binary genetic markers and the normal distribution for protein levels.
-Pandas :- (Data Structuring) Organizes the raw numbers into a labeled table (DataFrame). It handles the "logic" of your disease (e.g., Gene_A == 1 & Gene_B == 1).
-Scikit-Learn :- (The Main Part) Provides the HistGradientBoostingClassifier. It splits your data into training/testing sets and generates the classification report.
-Matplotlib :- (Visualization) Draws the Confusion Matrix. It turns the raw prediction numbers into a colored heatmap so you can "see" how many patients were misdiagnosed.
-SciPy :- (Statistical Support) While not explicitly called in your code snippet, scikit-learn uses SciPy in the background to perform the complex optimization math required to train the Gradient Booster.
-Imbalanced-Learn :- (Rare Case Handling) Since your disease only happens in ~0.5% of patients (Gene A=10% and Gene B=5%), this library provides tools (like SMOTE) to help the model learn from those rare cases without getting overwhelmed by healthy patients.
+=> NumPy :- (Numerical Engine) Generates the synthetic dataset using np.random. It creates the binary genetic markers and the normal distribution for protein levels.
 
-Inst
+=> Pandas :- (Data Structuring) Organizes the raw numbers into a labeled table (DataFrame). It handles the "logic" of your disease (e.g., Gene_A == 1 & Gene_B == 1).
+
+=> Scikit-Learn :- (The Main Part) Provides the HistGradientBoostingClassifier. It splits your data into training/testing sets and generates the classification report.
+
+=> Matplotlib :- (Visualization) Draws the Confusion Matrix. It turns the raw prediction numbers into a colored heatmap so you can "see" how many patients were misdiagnosed.
+
+=> SciPy :- (Statistical Support) While not explicitly called in your code snippet, scikit-learn uses SciPy in the background to perform the complex optimization math required to train the Gradient Booster.
+
+=> Imbalanced-Learn :- (Rare Case Handling) Since your disease only happens in ~0.5% of patients (Gene A=10% and Gene B=5%), this library provides tools (like SMOTE) to help the model learn from those rare cases without getting overwhelmed by healthy patients.
+
+7. Installation
+
+==> Cloning the repository :-
+
+git clone [https://github.com/SauravSujitChakraborty/clssify_pplin_imbalanced_med_data.git](https://github.com/SauravSujitChakraborty/clssify_pplin_imbalanced_med_data.git) 
+
+==> Installing the dependencies :-
+
+pip install -r requirements.txt
+
+
+
+
