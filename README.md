@@ -120,6 +120,9 @@ git clone [https://github.com/SauravSujitChakraborty/clssify_pplin_imbalanced_me
 
 pip install -r requirements.txt
 
+8. Model Results
+![Diagnostic Performance Graph](rare_gen_dise_pred_output_graph.jpg)
+
 
 
 
