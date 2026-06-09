@@ -122,13 +122,8 @@ pip install -r requirements.txt
 
 8. Model Results
 ![Diagnostic Performance Graph](rare_gen_dise_pred_output_graph.jpg)
-
-              precision    recall  f1-score   support
-
-   Healthy       0.99      0.95      0.97      9900
-  Diseased       0.68      0.91      0.78       100
-
-Custom Balanced ROC-AUC: 0.93
+![Output_Table](output_table_clssify_imbalanced_med_data.png)
+              
 
 
 
