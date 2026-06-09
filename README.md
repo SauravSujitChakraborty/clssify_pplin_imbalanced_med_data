@@ -110,20 +110,16 @@ $1-p$: The probability of failure (0.90 for Gene_A).
 
 => Imbalanced-Learn :- (Rare Case Handling) Since your disease only happens in ~0.5% of patients (Gene A=10% and Gene B=5%), this library provides tools (like SMOTE) to help the model learn from those rare cases without getting overwhelmed by healthy patients.
 
-7. Installation
-
-==> Cloning the repository :-
-
-git clone [https://github.com/SauravSujitChakraborty/clssify_pplin_imbalanced_med_data.git](https://github.com/SauravSujitChakraborty/clssify_pplin_imbalanced_med_data.git) 
-
-==> Installing the dependencies :-
-
-pip install -r requirements.txt
-
-8. Model Results
+7. Model Results
 ![Diagnostic Performance Graph](rare_gen_dise_pred_output_graph.jpg)
 ![Output_Table](output_table_clssify_imbalanced_med_data.png)
               
+8. Installation
 
+==> You can view the source code on the [clssify_pplin_imbalanced_med_data](https://github.com/SauravSujitChakraborty/clssify_pplin_imbalanced_med_data.git) page, or run the following commands to install it locally:
 
+```bash
+git clone https://github.com/SauravSujitChakraborty/clssify_pplin_imbalanced_med_data.git
+cd clssify_pplin_imbalanced_med_data
+```
 
