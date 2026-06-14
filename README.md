@@ -1,6 +1,6 @@
 # clssify_pplin_imbalanced_med_data
 
-This project was made by me during Sept 2025, preserved and published on Apr 6,'26.
+This project was made by me during May-June 2025, preserved and published on Apr 6,'26.
 
 THEORY:
 
