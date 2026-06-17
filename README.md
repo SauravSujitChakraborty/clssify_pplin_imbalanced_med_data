@@ -94,9 +94,7 @@ $p$: The probability of success (e.g., 0.10 for Gene_A),
 
 $1-p$: The probability of failure (0.90 for Gene_A).
 
-6. Packages required:-
-
-==> The packages required for this project are as follows :
+6. Core Packages:-
 
 => NumPy :- (Numerical Engine) Generates the synthetic dataset using np.random. It creates the binary genetic markers and the normal distribution for protein levels.
 
