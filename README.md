@@ -116,10 +116,24 @@ $1-p$: The probability of failure (0.90 for Gene_A).
               
 8. Installation
 
-==> You can view the source code on the [clssify_pplin_imbalanced_med_data](https://github.com/SauravSujitChakraborty/clssify_pplin_imbalanced_med_data.git) page, or run the following commands to install it locally:
+=> To clone and run this classification pipeline locally, execute the following commands in your terminal :-
 
 ```bash
 git clone https://github.com/SauravSujitChakraborty/clssify_pplin_imbalanced_med_data.git
 cd clssify_pplin_imbalanced_med_data
 ```
+=> Create and activate environment 
 
+```bash
+python -m venv venv
+# On macOS/Linux:
+source venv/bin/activate
+# On Windows:
+venv\Scripts\activate
+```
+
+=> Installing the dependencies:-
+
+```bash
+pip install -r requirements.txt
+```
